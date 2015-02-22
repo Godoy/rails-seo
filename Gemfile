@@ -41,3 +41,5 @@ gem 'spring',        group: :development
 gem "paperclip", "~> 4.2"
 gem "rails_admin"
 gem "bootstrap-sass", "~> 3.3.3"
+
+gem "faker"
