@@ -7,11 +7,11 @@ class EventsController < ApplicationController
   end
 
   def show
+    @page_title = @event.title
   end
   
   private
     def set_event
       @event = Event.find(params[:id])
-      @page_title = @event.title
     end
 end
