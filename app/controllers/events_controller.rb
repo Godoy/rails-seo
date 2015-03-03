@@ -3,6 +3,7 @@ class EventsController < ApplicationController
   
   def index
     @events = Event.all
+    @page_title = 'Eventos'
   end
 
   def show
@@ -11,5 +12,6 @@ class EventsController < ApplicationController
   private
     def set_event
       @event = Event.find(params[:id])
+      @page_title = @event.title
     end
 end
