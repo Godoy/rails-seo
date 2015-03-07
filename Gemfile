@@ -44,3 +44,4 @@ gem "bootstrap-sass", "~> 3.3.3"
 
 gem "faker"
 gem "meta-tags"
+gem 'friendly_id', '~> 5.1.0'
